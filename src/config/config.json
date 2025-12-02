@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "namdz",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "testing": {
+    "username": "root",
+    "password": "Gms@12345",
+    "database": "vkn@m",
+    "host": "192.168.10.108",
+    "dialect": "mysql",
+    "query": {
+      "raw": true
+    },
+    "timezone": "+7:00",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

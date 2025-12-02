@@ -1,0 +1,29 @@
+.btn-edit{
+    width:auto;
+    height:60px;
+    border:none;
+    outline:none;
+    background: transparent;
+    background-color: blueviolet;
+    color: white;
+    svg{
+        width:20px;
+        height:20px;
+        margin-right: 6px;
+    }
+}
+
+.btn-delete{
+    margin-left: 5px;
+    width:60px;
+    height: 60px;
+    border:none;
+    outline:none;
+    background: transparent;
+    background-color: greenyellow;
+    color: white;
+    svg{
+        width:20px;
+        height:20px;
+    }
+}

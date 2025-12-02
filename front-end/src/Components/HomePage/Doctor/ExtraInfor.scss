@@ -1,0 +1,45 @@
+.extra-container{
+    padding-left: 15px;
+    .content-up{
+        margin-bottom: 5px;
+        .address{
+            text-transform:uppercase;
+            color:#333;
+            font-weight:bold;
+        }
+        .name{
+            font-weight:bold;
+            color:#333;
+            &:hover {
+                background-color: #45c3d2;
+                color: rgb(81, 33, 33);
+            }
+        }
+    }
+    .content-down{
+        .title-price{
+            margin-bottom: 10px;
+        }
+        .details-info{
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #f8f8f8;
+            .price{
+                .right{
+                    float: right
+                }
+            }
+            .note{
+                border:1px solid #ddd;
+                padding:5px;
+            }
+        }
+        .hide{
+            margin-top:10px;
+            span{
+                cursor: pointer;
+                color:blueviolet
+            }
+        }
+    }
+}

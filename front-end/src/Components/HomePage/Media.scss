@@ -1,0 +1,16 @@
+.gather-together {
+    display: flex;
+    .iframe {
+        width: 50%;
+        height: 400px;
+        padding: 15px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .mediaImg {
+        width: 50%;
+        height: 400px;
+    }
+}

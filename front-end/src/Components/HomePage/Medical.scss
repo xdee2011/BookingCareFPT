@@ -1,0 +1,32 @@
+.medical-container{
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    border-style: solid;
+    border-top-color: rgb(229, 231, 233);
+    border-bottom-color:rgb(229, 231, 233);
+    border-right-color: rgb(248, 249, 249);
+    border-left-color: rgb(248, 249, 249);
+
+    .address{
+        margin-left: 70px;
+        padding-top:20px;
+        .content{
+          font-weight: bold;
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+        .item {
+          .background {
+            background-image: url('https://covid19.mic.gov.vn/assets/images/covidmic/tuyentruyen.png');
+            width: 450px;
+            height: 180px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 7px;
+          }
+        }
+        
+    }
+}

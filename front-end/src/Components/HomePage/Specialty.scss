@@ -1,0 +1,19 @@
+.specialty{
+    margin-left: 70px;
+    padding-top:20px;
+    .content{
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .item {
+      .background {
+        height: 200px;
+        width: 310px;
+        object-fit: cover;
+        margin-bottom: 7px;
+      }
+    }
+    
+}
+

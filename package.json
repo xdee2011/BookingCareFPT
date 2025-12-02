@@ -1,0 +1,33 @@
+{
+  "name": "final-project-2022",
+  "version": "1.0.0",
+  "description": "Final Project in FPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Vu Khanh Nam",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}

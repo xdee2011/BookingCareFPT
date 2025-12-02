@@ -1,0 +1,40 @@
+#mySidenav div {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav div:hover {
+    left: 0;
+}
+
+#specialty {
+    top: 20px;
+    background-color: #613563;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+
+#clinic {
+    top: 200px;
+    background-color: green
+}
+#contact {
+    top: 260px;
+    background-color: #555
+}

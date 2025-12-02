@@ -1,0 +1,39 @@
+.doc {
+  margin-left: 70px;
+  padding-top: 20px;
+  .content {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .item {
+    .background {
+      .all {
+        .gather {
+          margin-top: 10px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          .avatar {
+            border-radius: 50%;
+            height: 140px;
+            object-fit: cover;
+            width: 140px;
+          }
+          .name {
+            margin-top: 10px;
+          }
+        }
+
+        margin-bottom: 80px;
+      }
+      border-style: solid;
+      border-color: rgb(229, 231, 233);
+      width: 350px;
+      height: 280px;
+      padding: 5px;
+      margin-bottom: 7px;
+    }
+  }
+}
